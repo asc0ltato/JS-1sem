@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(169, 182, 241);	
+}
+
+h1 {
+    text-align: center;
+	margin: 8px; 
+    color: rgb(160, 77, 212);
+}
+
+table {
+	border-spacing: 0;	
+	margin-left: 5px;
+	margin: auto;
+
+}
+
+td {
+	border: solid 1px #000000;
+	padding: 5px;
+	text-align: center;
+	border-right: none;
+	border-bottom: none;
+}
+
+td:last-child {
+	border-right: solid 1px #000000;
+}
+
+tr:last-child td {
+	border-bottom: solid 1px #000000;	
+}
+
+td:first-child{
+	font-weight: bolder;
+	font-style: unset;
+}
+
+tr:first-child{
+	font-weight: bolder;
+	font-style: unset;
+}

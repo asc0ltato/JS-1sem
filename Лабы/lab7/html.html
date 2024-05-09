@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма 1</title>
+	<link rel="stylesheet" href="css.css">
+</head>
+<body>
+	<form action="" name="search">
+		<fieldset>
+		<textarea name="textarea" rows="3" cols="21">Факультет информационных технологий</textarea><br>
+
+		<input class="type" type="text" name="lastName" placeholder="Фамилия"><br>
+		<input class="type" type="text" name="name" placeholder="Имя"><br>
+
+		<label>Специальность</label>
+		<select name="specialty" >
+			<option value="ПОИТ">ПОИТ</option>
+			<option value="ИСиТ">ИСиТ</option>
+			<option value="ПОИБМС">ПОИБМС</option>
+			<option value="ДЭВИ">ДЭВИ</option>
+		</select><br>
+		
+		    <label>Курс</label><br>
+			<label><input type="radio" name="course" value="1">1
+			<input type="radio" name="course" value="2">2
+			<input type="radio" name="course" value="3">3
+			<input type="radio" name="course" value="4">4</label><br>
+
+			<label>Предметы</label><br>
+			<label class="container"><input name="subjects" type="checkbox" value="ОИТ">ОИТ
+			<input name="subjects"  type="checkbox" value="ОАП">ОАП
+			<input name="subjects"  type="checkbox" value="История">История
+			<input name="subjects"  type="checkbox" value="Физика">Физика
+			<input name="subjects"  type="checkbox" value="Математика">Математика</label><br>
+			
+			<button>reset</button>
+			<button type="submit">submit</button>
+			<button id="print">Напечатать</button>
+		</fieldset>
+	</form>
+
+	<script src="firstForm.js"></script>
+</body>
+</html>

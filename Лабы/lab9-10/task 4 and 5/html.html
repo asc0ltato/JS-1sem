@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Графики</title>
+</head>
+<body>
+    <div class="radio">
+        <input type="radio" name="func" id="x2">
+        <label for="x^2">y=x^2</label>
+        <input type="radio" name="func" id="x3">
+        <label for="x^3">y=x^3</label>
+        <input type="radio" name="func" id="sin">
+        <label for="sin(x)">y=sin(x)</label>
+        <input type="radio" name="func" id="cos">
+        <label for="cos(x)">y=cos(x)</label>
+    </div>
+
+    <div class="select">
+        <select name="color" id="color">
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option>
+        </select>
+    </div>
+    <canvas id="canvas" width="400" height="400"></canvas>
+</body>
+<script src="js.js"></script>
+</html>

@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#but").click(function(){
+    $("#kit").animate({left:100,top:100},400);
+    $("#kit").animate({left:200,top:10},400);
+    $("#kit").animate({left:300,top:100},400);
+    $("#kit").animate({left:400,top:10},400);
+    $("#kit").animate({left:500,top:100},400);
+    $("#kit").animate({left:600,top:10},400);
+    $("#kit").animate({left:700,top:100},400);
+    $("#kit").animate({left:800,top:10},400);
+    $("#kit").animate({left:900,top:100},400);
+    //
+    $("#kit").animate({left:800,top:10},400);
+    $("#kit").animate({left:700,top:100},400);
+    $("#kit").animate({left:600,top:10},400);
+    $("#kit").animate({left:500,top:100},400);
+    $("#kit").animate({left:400,top:10},400);
+    $("#kit").animate({left:300,top:100},400);
+    $("#kit").animate({left:200,top:10},400);
+    $("#kit").animate({left:100,top:100},400);
+    $("#kit").animate({left:5,top:10},400);
+});
+});
